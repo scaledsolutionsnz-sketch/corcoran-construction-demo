@@ -176,6 +176,19 @@ section{padding:96px 0}
 .funnel h2{color:#fff;font-size:clamp(2rem,4vw,2.9rem);margin-bottom:14px}
 .funnel .stars{font-size:1.8rem;margin-bottom:20px}
 .funnel p{color:var(--cream-muted);max-width:48ch;margin:0 auto 28px}
+.hero-tag{font-family:"DM Serif Display",Georgia,serif;color:#fff;font-size:clamp(1.35rem,2.8vw,2rem);line-height:1.22;margin:-4px 0 18px;max-width:24ch;text-shadow:0 2px 24px rgba(0,0,0,.35)}
+.g-summary{display:inline-flex;align-items:center;gap:20px;flex-wrap:wrap;justify-content:center;background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 26px;box-shadow:var(--shadow);margin-top:30px}
+.g-logo{display:inline-flex;align-items:center}
+.g-score{font-family:"DM Serif Display",Georgia,serif;font-size:2.3rem;color:var(--dark);line-height:1}
+.g-stars{display:flex;flex-direction:column;align-items:flex-start;gap:3px}
+.g-stars .stars{font-size:1.15rem;letter-spacing:2px}
+.g-sub{font-size:.78rem;color:var(--muted);font-weight:600;letter-spacing:.2px}
+.g-btn{background:#1a73e8;color:#fff;font-weight:700;padding:12px 20px;border-radius:10px;font-size:.9rem;text-decoration:none;transition:transform .2s,background .2s;white-space:nowrap}
+.g-btn:hover{background:#1668d6;transform:translateY(-2px)}
+.rev-top{display:flex;align-items:center;justify-content:space-between}
+.rev-g{display:inline-flex;opacity:.92}
+.funnel-g{display:inline-flex;align-items:center;justify-content:center;background:#fff;width:58px;height:58px;border-radius:50%;margin-bottom:14px;box-shadow:0 12px 30px -10px rgba(0,0,0,.55)}
+@media(max-width:560px){.g-summary{gap:14px;padding:14px 18px}.g-score{font-size:2rem}}
 
 /* ===== CONTACT ===== */
 .contact{background:var(--dark)}
